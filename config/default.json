@@ -1,0 +1,16 @@
+{
+  "App": {
+    "displayName": "HR-APP",
+    "localStorage": {
+      "currentUser": "current-user"
+    }
+  },
+  "Api": {
+    "rotes": {
+      "baseUrl": "http://localhost/8090/api",
+      "login": "http://localhost/8090/api/public/login",
+      "register": "http://localhost/8090/api/public/register"
+    },
+    "fetchMode": "cors"
+  }
+}
